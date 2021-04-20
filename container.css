@@ -5,7 +5,7 @@ body{
     background-color: #192a56;
     border-style: solid;
     border-color: black;    
-    margin: 30px;
+    margin: 30px auto;
     width: 100%;
     height: 100%;
     justify-content: space-evenly;
@@ -22,22 +22,22 @@ body{
 }
 
 .i0{
-    background-color: yellow;
+    background-color: #0984e3;
     border: 0cm;
     margin: 8px;
 }
 .i1{
-    background-color: lightblue;
+    background-color: #74b9ff;
     border: 0cm;
     margin: 8px;
 }
 .i2{
-    background-color: yellow;
+    background-color: #74b9ff;
     border: 0cm;
     margin: 8px;
 }
 .i3{   
-    background-color: yellow;
+    background-color: #74b9ff;
     border: 0cm;
     margin: 8px;
 }

@@ -20,12 +20,10 @@ body{
     margin: 30px;
 
     height: 400px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    display: flex;
+    display: flex;    
 }
 .item-superior1{
-    background-color: red;
+    background-color: #0984e3;
     width: 110px;    
     height: 210px;
     align-self: flex-end;
@@ -33,7 +31,7 @@ body{
     text-align: center;    
 }
 .item-superior2{
-    background-color: green;
+    background-color: #0984e3;
     width: 110px;
     height: 210px;
     align-self: flex-start;
@@ -41,7 +39,7 @@ body{
     text-align: center;
 }
 .item-superior3{
-    background-color: yellow;
+    background-color: #0984e3;
     width: 110px;
     height: 210px;
     align-self: center;
@@ -49,17 +47,20 @@ body{
     text-align: center;
 }
 .item-inferior1{
-    margin: 2px;
+    margin: 1px;
     border-color: red;
     border-style: solid;
+    flex-grow: 2;
 }
 .item-inferior2{
-    margin: 2px;
+    margin: 1px;
     border-color: red;
     border-style: solid;
+    flex-grow: 4;
 }
 .item-inferior3{
-    margin: 2px;
+    margin: 1px;
     border-color: red;
     border-style: solid;
+    flex-grow: 2;
 }
